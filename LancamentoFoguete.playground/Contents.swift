@@ -5,5 +5,13 @@ import Foundation
 
 for contagemRegressiva in (0...10).reversed() {
     sleep(1)
-    contagemRegressiva == 0 ? print("\(contagemRegressiva) e fogo") : print(contagemRegressiva)
+    
+    
+    if contagemRegressiva == 0{
+        print("\(contagemRegressiva) e fogo")
+    }else{
+        print(contagemRegressiva)
+    }
+    
 }
+
